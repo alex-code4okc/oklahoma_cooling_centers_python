@@ -1,0 +1,2090 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ffd738d295717b28c23ac17f2852c33a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ffd738d295717b28c23ac17f2852c33a" ></div>
+        
+</body>
+<script>    
+    
+            var map_ffd738d295717b28c23ac17f2852c33a = L.map(
+                "map_ffd738d295717b28c23ac17f2852c33a",
+                {
+                    center: [35.4823241, -97.7593895],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2531e8a032d5267a1e3cdeebe56b8167 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+            var marker_6d41c352ca8f91d8633b9653a19736d7 = L.marker(
+                [34.773771, -96.678928],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_dd3363d9ded0011ec728326f3869cf6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83c908dca78f985a73b5afdb4f111749 = $(`<div id="html_83c908dca78f985a73b5afdb4f111749" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/HoECHp1oGVduX78CA>Ada Ada Public Library</a><p>M,Tu,W,Th,Fr,Sa 09:00-13:00</p></div></div>`)[0];
+            popup_dd3363d9ded0011ec728326f3869cf6c.setContent(html_83c908dca78f985a73b5afdb4f111749);
+        
+
+        marker_6d41c352ca8f91d8633b9653a19736d7.bindPopup(popup_dd3363d9ded0011ec728326f3869cf6c)
+        ;
+
+        
+    
+    
+            marker_6d41c352ca8f91d8633b9653a19736d7.bindTooltip(
+                `<div>
+                     Ada Ada Public Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_189050ec6558826b37364279c9acdd03 = L.marker(
+                [36.8035086, -98.670433],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_a4dff5d1f2ecebe3e64a0bb6955c4fe5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7160dc333a11b153a99bb4c845660f98 = $(`<div id="html_7160dc333a11b153a99bb4c845660f98" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/Ye7ytjTwe4yBSH8R9>Alva Alva Public Library</a><p>M 10:00-21:00</p></div></div>`)[0];
+            popup_a4dff5d1f2ecebe3e64a0bb6955c4fe5.setContent(html_7160dc333a11b153a99bb4c845660f98);
+        
+
+        marker_189050ec6558826b37364279c9acdd03.bindPopup(popup_a4dff5d1f2ecebe3e64a0bb6955c4fe5)
+        ;
+
+        
+    
+    
+            marker_189050ec6558826b37364279c9acdd03.bindTooltip(
+                `<div>
+                     Alva Alva Public Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_464d76c96536b73c58a89162b6c99051 = L.marker(
+                [36.8033857, -98.6722499],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_5e78f56d9dbb5637c2f26741376dff43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92a29cf430558f503f079583cfd7aaf5 = $(`<div id="html_92a29cf430558f503f079583cfd7aaf5" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/e5vVpPfQ2Huhc5Hp8>Alva Alva Senior Center/ Panhandle Nutrition</a><p>M,Tu,W,Th 09:00-15:00</p></div></div>`)[0];
+            popup_5e78f56d9dbb5637c2f26741376dff43.setContent(html_92a29cf430558f503f079583cfd7aaf5);
+        
+
+        marker_464d76c96536b73c58a89162b6c99051.bindPopup(popup_5e78f56d9dbb5637c2f26741376dff43)
+        ;
+
+        
+    
+    
+            marker_464d76c96536b73c58a89162b6c99051.bindTooltip(
+                `<div>
+                     Alva Alva Senior Center/ Panhandle Nutrition
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_623ac826ac8ca451ae4403d41ee37ad4 = L.marker(
+                [34.1716723, -97.1340237],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_91772088fe59d555093dc1c34980890c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f397fc285dff15882f47be0ac3a07ee1 = $(`<div id="html_f397fc285dff15882f47be0ac3a07ee1" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/5CZ66YMPHWDt1v3T7>Ardmore Salvation Army</a><p>nan</p></div></div>`)[0];
+            popup_91772088fe59d555093dc1c34980890c.setContent(html_f397fc285dff15882f47be0ac3a07ee1);
+        
+
+        marker_623ac826ac8ca451ae4403d41ee37ad4.bindPopup(popup_91772088fe59d555093dc1c34980890c)
+        ;
+
+        
+    
+    
+            marker_623ac826ac8ca451ae4403d41ee37ad4.bindTooltip(
+                `<div>
+                     Ardmore Salvation Army
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6f6b930908be092d6dac02913010895 = L.marker(
+                [34.1782496, -97.1348454],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_ff530361e36a983c3509966b3d4b1f3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c1067ea0cd641ece49e1e0371d69160 = $(`<div id="html_6c1067ea0cd641ece49e1e0371d69160" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/X7F9szzEZ659RGdZ9>Ardmore Ardmore Public Library </a><p>09:00-17:00</p></div></div>`)[0];
+            popup_ff530361e36a983c3509966b3d4b1f3a.setContent(html_6c1067ea0cd641ece49e1e0371d69160);
+        
+
+        marker_a6f6b930908be092d6dac02913010895.bindPopup(popup_ff530361e36a983c3509966b3d4b1f3a)
+        ;
+
+        
+    
+    
+            marker_a6f6b930908be092d6dac02913010895.bindTooltip(
+                `<div>
+                     Ardmore Ardmore Public Library 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f929dadfb8f2ae1b8b7ae631947e37f6 = L.marker(
+                [35.5050991, -97.6338253],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_93cf04ac7572ea21d8f0cd14b2d3be29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_579d0e91133f4011c5f274957bb77c9b = $(`<div id="html_579d0e91133f4011c5f274957bb77c9b" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/gFHhfr6pFBEhrsw18>Bethany Bethany Branch YMCA </a><p>M,Tu,W,Th,Fr: 05:00-21:00, Sa 08:00-16:00, Su 13:00-17:00</p></div></div>`)[0];
+            popup_93cf04ac7572ea21d8f0cd14b2d3be29.setContent(html_579d0e91133f4011c5f274957bb77c9b);
+        
+
+        marker_f929dadfb8f2ae1b8b7ae631947e37f6.bindPopup(popup_93cf04ac7572ea21d8f0cd14b2d3be29)
+        ;
+
+        
+    
+    
+            marker_f929dadfb8f2ae1b8b7ae631947e37f6.bindTooltip(
+                `<div>
+                     Bethany Bethany Branch YMCA 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c688c62d2b4db38722c937f2c95ac2a = L.marker(
+                [35.5065782, -97.6359301],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_9214b7764619cd706ca19a5637cbfc89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c78069d8afa014b699417d2ae59d053 = $(`<div id="html_2c78069d8afa014b699417d2ae59d053" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibrarybethany?share>Bethany Bethany Library </a><p>M,Tu,W,Th 09:00-21:00, Fr 09:00-18:00, Sa 09:00-17:00</p></div></div>`)[0];
+            popup_9214b7764619cd706ca19a5637cbfc89.setContent(html_2c78069d8afa014b699417d2ae59d053);
+        
+
+        marker_0c688c62d2b4db38722c937f2c95ac2a.bindPopup(popup_9214b7764619cd706ca19a5637cbfc89)
+        ;
+
+        
+    
+    
+            marker_0c688c62d2b4db38722c937f2c95ac2a.bindTooltip(
+                `<div>
+                     Bethany Bethany Library 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc320bc61cdd6a65399f3f4b7b442602 = L.marker(
+                [35.4993001, -97.6383755],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_1a5eabe76618810cf2761743afca5dde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d90d732feb99ca1b9cf2dde1583c0a46 = $(`<div id="html_d90d732feb99ca1b9cf2dde1583c0a46" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/MgwsCArM8q64XMLUA>Bethany Daily Living Center </a><p>M,Tu,W,Th,Fr 06:30-18:30</p></div></div>`)[0];
+            popup_1a5eabe76618810cf2761743afca5dde.setContent(html_d90d732feb99ca1b9cf2dde1583c0a46);
+        
+
+        marker_fc320bc61cdd6a65399f3f4b7b442602.bindPopup(popup_1a5eabe76618810cf2761743afca5dde)
+        ;
+
+        
+    
+    
+            marker_fc320bc61cdd6a65399f3f4b7b442602.bindTooltip(
+                `<div>
+                     Bethany Daily Living Center 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c4e8c6a9984c96328b04fae627c239b = L.marker(
+                [35.524407, -97.9552032],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_d02a7e7d5d92be382550041b82d80f8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a25c14a5dc0a50f775d069793ceaa066 = $(`<div id="html_a25c14a5dc0a50f775d069793ceaa066" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/yFe5B1PsF9nemyY87>Bethany The Salvation Army </a><p>M,W,Th 09:00-12:00 & 13:00-15:00</p></div></div>`)[0];
+            popup_d02a7e7d5d92be382550041b82d80f8f.setContent(html_a25c14a5dc0a50f775d069793ceaa066);
+        
+
+        marker_6c4e8c6a9984c96328b04fae627c239b.bindPopup(popup_d02a7e7d5d92be382550041b82d80f8f)
+        ;
+
+        
+    
+    
+            marker_6c4e8c6a9984c96328b04fae627c239b.bindTooltip(
+                `<div>
+                     Bethany The Salvation Army 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7132498909de56449a00a323cb58f53e = L.marker(
+                [35.8340567, -96.3960805],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_00dc09b38b8131dac0d27acdf5c478e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a028315986561f2bbe5496927a4d36f = $(`<div id="html_1a028315986561f2bbe5496927a4d36f" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/abvmZZGZg8JX37yQA>Bristow Bristow Public Library</a><p>M 09:00-18:00, Tu 09:00-19:00, W 09:00-18:00, Th 09:00-19:00, Fr 09:00-15:00, Sa 09:00-13:00</p></div></div>`)[0];
+            popup_00dc09b38b8131dac0d27acdf5c478e4.setContent(html_1a028315986561f2bbe5496927a4d36f);
+        
+
+        marker_7132498909de56449a00a323cb58f53e.bindPopup(popup_00dc09b38b8131dac0d27acdf5c478e4)
+        ;
+
+        
+    
+    
+            marker_7132498909de56449a00a323cb58f53e.bindTooltip(
+                `<div>
+                     Bristow Bristow Public Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d2eadd1083cc79152f85de9836a6c56 = L.marker(
+                [35.4707347, -95.5318227],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_14ae9c98d637ebaf3ea9c918f4b448eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d9623bfc51fb005811035a9043407f7 = $(`<div id="html_9d9623bfc51fb005811035a9043407f7" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/77SNVXhTDs3xRbUe8>Checotah Checotah Public Library </a><p>M 08:30-19:00, T,W,Th,Fr 08:30-18:00, Sa 09:00-13:00</p></div></div>`)[0];
+            popup_14ae9c98d637ebaf3ea9c918f4b448eb.setContent(html_9d9623bfc51fb005811035a9043407f7);
+        
+
+        marker_5d2eadd1083cc79152f85de9836a6c56.bindPopup(popup_14ae9c98d637ebaf3ea9c918f4b448eb)
+        ;
+
+        
+    
+    
+            marker_5d2eadd1083cc79152f85de9836a6c56.bindTooltip(
+                `<div>
+                     Checotah Checotah Public Library 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c82162705d8eee56fb2e48d0f5ad58b7 = L.marker(
+                [35.4949388, -97.2720872],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_d1f2196689c789b3eef81392d1e70f2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4810928f872f08aceee7301335f6973d = $(`<div id="html_4810928f872f08aceee7301335f6973d" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibrarychoctaw?share>Choctaw Choctaw Library</a><p>M,Tu,W,Th 09:00-21:00, Fr 09:00-18:00, Sa 09:00-17:00, Su 12:00-18:00</p></div></div>`)[0];
+            popup_d1f2196689c789b3eef81392d1e70f2f.setContent(html_4810928f872f08aceee7301335f6973d);
+        
+
+        marker_c82162705d8eee56fb2e48d0f5ad58b7.bindPopup(popup_d1f2196689c789b3eef81392d1e70f2f)
+        ;
+
+        
+    
+    
+            marker_c82162705d8eee56fb2e48d0f5ad58b7.bindTooltip(
+                `<div>
+                     Choctaw Choctaw Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68aa13aa3f5bd68a634cbe7d44a247de = L.marker(
+                [34.505814, -97.1226812],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_09385cca61572c5f4a6d0bc979e277c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_064199c98713bfdf57d00735402110f4 = $(`<div id="html_064199c98713bfdf57d00735402110f4" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/Ca4xzcsCmJvrs8tv6>Davis Davis Public Library</a><p>11:30am – 5pm</p></div></div>`)[0];
+            popup_09385cca61572c5f4a6d0bc979e277c6.setContent(html_064199c98713bfdf57d00735402110f4);
+        
+
+        marker_68aa13aa3f5bd68a634cbe7d44a247de.bindPopup(popup_09385cca61572c5f4a6d0bc979e277c6)
+        ;
+
+        
+    
+    
+            marker_68aa13aa3f5bd68a634cbe7d44a247de.bindTooltip(
+                `<div>
+                     Davis Davis Public Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8b75ae4eeb2477be98ecb61fc1ad684 = L.marker(
+                [33.9945125, -96.3957006],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_01a2d49bf3b9bc15652d1a8b3b6fc4d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5664b65492c12ae921266842c2a4ef6 = $(`<div id="html_c5664b65492c12ae921266842c2a4ef6" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/TmzLNhtR7RrgnThdA>Durant Donald Reynolds Library </a><p>M,Tu,W,Th 09:00-20:00, Fr, Sa 09:00-17:00</p></div></div>`)[0];
+            popup_01a2d49bf3b9bc15652d1a8b3b6fc4d7.setContent(html_c5664b65492c12ae921266842c2a4ef6);
+        
+
+        marker_b8b75ae4eeb2477be98ecb61fc1ad684.bindPopup(popup_01a2d49bf3b9bc15652d1a8b3b6fc4d7)
+        ;
+
+        
+    
+    
+            marker_b8b75ae4eeb2477be98ecb61fc1ad684.bindTooltip(
+                `<div>
+                     Durant Donald Reynolds Library 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8e11e2a4ebf417c7c4c487e321e50e8 = L.marker(
+                [35.6219341, -97.4876832],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_a50f6fb7bdb13ba0d7cd964640f9ff74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a83d886f911b428be0e06b40f36152ff = $(`<div id="html_a83d886f911b428be0e06b40f36152ff" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/nXnSKHHcr1kN2LLP7>Edmond Center</a><p>M,Tu,W,Th,Fr 07:30-17:30</p></div></div>`)[0];
+            popup_a50f6fb7bdb13ba0d7cd964640f9ff74.setContent(html_a83d886f911b428be0e06b40f36152ff);
+        
+
+        marker_b8e11e2a4ebf417c7c4c487e321e50e8.bindPopup(popup_a50f6fb7bdb13ba0d7cd964640f9ff74)
+        ;
+
+        
+    
+    
+            marker_b8e11e2a4ebf417c7c4c487e321e50e8.bindTooltip(
+                `<div>
+                     Edmond Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e137a9107678fe7d9fe06680e5dbeab0 = L.marker(
+                [35.6541916, -97.4820979],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_3ddcd7ca31f8024c78553928060e4b51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41b2e27e8014dd97d898624fe8dc82a3 = $(`<div id="html_41b2e27e8014dd97d898624fe8dc82a3" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibraryedmond?share>Edmond Library</a><p>M,Tu,W,Th 09:00-21:00, Fr 09:00-18:00, Sa 09:00-17:00, Su 13:00-18:00</p></div></div>`)[0];
+            popup_3ddcd7ca31f8024c78553928060e4b51.setContent(html_41b2e27e8014dd97d898624fe8dc82a3);
+        
+
+        marker_e137a9107678fe7d9fe06680e5dbeab0.bindPopup(popup_3ddcd7ca31f8024c78553928060e4b51)
+        ;
+
+        
+    
+    
+            marker_e137a9107678fe7d9fe06680e5dbeab0.bindTooltip(
+                `<div>
+                     Edmond Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b0e19dac88d3413500cec0250424da9 = L.marker(
+                [35.6847017, -97.5412704],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_c512323b7ea6220ee45420f9365c501d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d01f7d78973f61a4ab2bfc56f5b5ad17 = $(`<div id="html_d01f7d78973f61a4ab2bfc56f5b5ad17" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/DxyWhcwfVauZCdtNA>Edmond Mitch Park YMCA </a><p>M-TH 5am – 10pm; FRI 5am – 9pm; SAT 9am – 5pm; SUN 1pm – 6pm</p></div></div>`)[0];
+            popup_c512323b7ea6220ee45420f9365c501d.setContent(html_d01f7d78973f61a4ab2bfc56f5b5ad17);
+        
+
+        marker_2b0e19dac88d3413500cec0250424da9.bindPopup(popup_c512323b7ea6220ee45420f9365c501d)
+        ;
+
+        
+    
+    
+            marker_2b0e19dac88d3413500cec0250424da9.bindTooltip(
+                `<div>
+                     Edmond Mitch Park YMCA 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8ac25e90a7fa79048cf93b32f32669e = L.marker(
+                [35.6405743, -97.4769876],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_276d5ab022a96f28750edd18e75cc510 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a4f0c57f2361445f44ec57e5ace42ad = $(`<div id="html_6a4f0c57f2361445f44ec57e5ace42ad" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/XxmjC5HoXedL8q2z9>Edmond Rankin YMCA</a><p>M-TH 5am – 10pm; FRI 5am – 9pm; SAT 9am – 5pm; SUN 1pm – 6pm</p></div></div>`)[0];
+            popup_276d5ab022a96f28750edd18e75cc510.setContent(html_6a4f0c57f2361445f44ec57e5ace42ad);
+        
+
+        marker_c8ac25e90a7fa79048cf93b32f32669e.bindPopup(popup_276d5ab022a96f28750edd18e75cc510)
+        ;
+
+        
+    
+    
+            marker_c8ac25e90a7fa79048cf93b32f32669e.bindTooltip(
+                `<div>
+                     Edmond Rankin YMCA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9a7fc6b02bee9e805f7011a27d9724f = L.marker(
+                [36.3957872, -97.8812982],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_618e7d909f03b1d6c2006c9a0565a6ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a7d6ac8e185a8b9492ab5fe5aaa87ce = $(`<div id="html_3a7d6ac8e185a8b9492ab5fe5aaa87ce" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/sqEdnvoVRFnazD8HA>Enid Public Library</a><p>M-F 9am – 7pm; SAT 10am – 6pm</p></div></div>`)[0];
+            popup_618e7d909f03b1d6c2006c9a0565a6ba.setContent(html_3a7d6ac8e185a8b9492ab5fe5aaa87ce);
+        
+
+        marker_b9a7fc6b02bee9e805f7011a27d9724f.bindPopup(popup_618e7d909f03b1d6c2006c9a0565a6ba)
+        ;
+
+        
+    
+    
+            marker_b9a7fc6b02bee9e805f7011a27d9724f.bindTooltip(
+                `<div>
+                     Enid Public Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d7dc465270046b8b34cb665c0601c2b = L.marker(
+                [36.4017072, -97.8824503],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_a0c720e9adfb6334022294b603a7dda1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cf3d87f44c0bc3d8a89c7aaac6a1823 = $(`<div id="html_5cf3d87f44c0bc3d8a89c7aaac6a1823" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/iSEp3zte7tshF1YL8>Enid The Salvation Army</a><p>M-Su 9am – 4pm</p></div></div>`)[0];
+            popup_a0c720e9adfb6334022294b603a7dda1.setContent(html_5cf3d87f44c0bc3d8a89c7aaac6a1823);
+        
+
+        marker_7d7dc465270046b8b34cb665c0601c2b.bindPopup(popup_a0c720e9adfb6334022294b603a7dda1)
+        ;
+
+        
+    
+    
+            marker_7d7dc465270046b8b34cb665c0601c2b.bindTooltip(
+                `<div>
+                     Enid The Salvation Army
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0c4f82db613433ad1b94eceb51ab40a = L.marker(
+                [36.3959437, -97.8822603],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_375163bb71d93bb699ae0a199879d280 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c858f3631efbae05ec85054d582535ab = $(`<div id="html_c858f3631efbae05ec85054d582535ab" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/ugbwUao6hNDYNU9E6>Enid CDSA</a><p>M-F 8am – 5pm</p></div></div>`)[0];
+            popup_375163bb71d93bb699ae0a199879d280.setContent(html_c858f3631efbae05ec85054d582535ab);
+        
+
+        marker_d0c4f82db613433ad1b94eceb51ab40a.bindPopup(popup_375163bb71d93bb699ae0a199879d280)
+        ;
+
+        
+    
+    
+            marker_d0c4f82db613433ad1b94eceb51ab40a.bindTooltip(
+                `<div>
+                     Enid CDSA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87b0c687eac2bcf15d8dc5ed0f2c877b = L.marker(
+                [35.2841009, -95.5878632],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_0fdc795c65033828a415aa3480c5f710 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00381062fcb962646b1aa0088e321d3c = $(`<div id="html_00381062fcb962646b1aa0088e321d3c" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/wqEt5gaXaRxReYhi8>Eufaula Memorial Library</a><p>M,W,Th,Fr 9am-6pm, Tu 9am-7pm, Sa 9am-1pm</p></div></div>`)[0];
+            popup_0fdc795c65033828a415aa3480c5f710.setContent(html_00381062fcb962646b1aa0088e321d3c);
+        
+
+        marker_87b0c687eac2bcf15d8dc5ed0f2c877b.bindPopup(popup_0fdc795c65033828a415aa3480c5f710)
+        ;
+
+        
+    
+    
+            marker_87b0c687eac2bcf15d8dc5ed0f2c877b.bindTooltip(
+                `<div>
+                     Eufaula Memorial Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c64c0583825d8aee9bf747d91253b835 = L.marker(
+                [35.7925635, -95.2485384],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_c50a52c30ba1ec89586db57e55bf1942 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be7252bcab73a0738cc1a3d5fbfe6ab4 = $(`<div id="html_be7252bcab73a0738cc1a3d5fbfe6ab4" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/pKEbB3NucK9uKMCy8>Fort Gibson Q.B. Boydstun Public Library</a><p>MON, WED & FRI 9am-6pm; TUE & THUR 9am-7pm; SAT 9am-2pm</p></div></div>`)[0];
+            popup_c50a52c30ba1ec89586db57e55bf1942.setContent(html_be7252bcab73a0738cc1a3d5fbfe6ab4);
+        
+
+        marker_c64c0583825d8aee9bf747d91253b835.bindPopup(popup_c50a52c30ba1ec89586db57e55bf1942)
+        ;
+
+        
+    
+    
+            marker_c64c0583825d8aee9bf747d91253b835.bindTooltip(
+                `<div>
+                     Fort Gibson Q.B. Boydstun Public Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e223fc8fcf6b68295b1b3dc72d8d2251 = L.marker(
+                [35.3899999, -94.4272828],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_35a3fce168cb6d76d3f081a494eb0a24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_912f7877f2578c84fd5761347ecec44c = $(`<div id="html_912f7877f2578c84fd5761347ecec44c" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/Bsg4TGEE9eTj61Z69>Fort Smith Salvation Army</a><p>M-F 8am-8pm</p></div></div>`)[0];
+            popup_35a3fce168cb6d76d3f081a494eb0a24.setContent(html_912f7877f2578c84fd5761347ecec44c);
+        
+
+        marker_e223fc8fcf6b68295b1b3dc72d8d2251.bindPopup(popup_35a3fce168cb6d76d3f081a494eb0a24)
+        ;
+
+        
+    
+    
+            marker_e223fc8fcf6b68295b1b3dc72d8d2251.bindTooltip(
+                `<div>
+                     Fort Smith Salvation Army
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f5414408b15e20c46c4e285eac839bf = L.marker(
+                [35.3792599, -94.4329579],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_5590a16d1c65725542c2790a63df71d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f702a20b84c0816330d0380931e28dd9 = $(`<div id="html_f702a20b84c0816330d0380931e28dd9" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/x4WNvR9pPU5rrfPaA>Fort Smith Hope Campus</a><p>M-S 8am-10pm</p></div></div>`)[0];
+            popup_5590a16d1c65725542c2790a63df71d1.setContent(html_f702a20b84c0816330d0380931e28dd9);
+        
+
+        marker_6f5414408b15e20c46c4e285eac839bf.bindPopup(popup_5590a16d1c65725542c2790a63df71d1)
+        ;
+
+        
+    
+    
+            marker_6f5414408b15e20c46c4e285eac839bf.bindTooltip(
+                `<div>
+                     Fort Smith Hope Campus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ff701777ec28805830233ea0491e08f = L.marker(
+                [35.393257, -94.422952],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_370991779687d0473069e9501df05015 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b789782f77ed92c2d7487a215bd235d = $(`<div id="html_7b789782f77ed92c2d7487a215bd235d" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/hGzSnLLAEwQKgTR5A>Fort Smith Community Rescue </a><p>M-F 8am-8pm</p></div></div>`)[0];
+            popup_370991779687d0473069e9501df05015.setContent(html_7b789782f77ed92c2d7487a215bd235d);
+        
+
+        marker_8ff701777ec28805830233ea0491e08f.bindPopup(popup_370991779687d0473069e9501df05015)
+        ;
+
+        
+    
+    
+            marker_8ff701777ec28805830233ea0491e08f.bindTooltip(
+                `<div>
+                     Fort Smith Community Rescue 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49f91450bea6af84df11d37f478669a3 = L.marker(
+                [35.8783109, -97.4246445],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_647bb142c823f52ee8f977896cbce9dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca42dc244219866794506265925c7970 = $(`<div id="html_ca42dc244219866794506265925c7970" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/GqZMK1abcvQZySiJA>Guthrie YMCA </a><p>MON-THUR 5am – 8:30pm; FRI 5:30am – 7pm; SAT 8:30am – 3pm; SUN 2pm – 4pm</p></div></div>`)[0];
+            popup_647bb142c823f52ee8f977896cbce9dc.setContent(html_ca42dc244219866794506265925c7970);
+        
+
+        marker_49f91450bea6af84df11d37f478669a3.bindPopup(popup_647bb142c823f52ee8f977896cbce9dc)
+        ;
+
+        
+    
+    
+            marker_49f91450bea6af84df11d37f478669a3.bindTooltip(
+                `<div>
+                     Guthrie YMCA 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b10df50a85d97d2416e265533607984b = L.marker(
+                [35.4878308, -97.1615547],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_823990ce1345e02f758135884df693e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77d2f74de1a2da87e7793d9b5f222ba4 = $(`<div id="html_77d2f74de1a2da87e7793d9b5f222ba4" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibraryharrah?share>Metropolitan Library System - Harrah Library</a><p>MON, WED & THUR 9am – 6pm;</p></div></div>`)[0];
+            popup_823990ce1345e02f758135884df693e8.setContent(html_77d2f74de1a2da87e7793d9b5f222ba4);
+        
+
+        marker_b10df50a85d97d2416e265533607984b.bindPopup(popup_823990ce1345e02f758135884df693e8)
+        ;
+
+        
+    
+    
+            marker_b10df50a85d97d2416e265533607984b.bindTooltip(
+                `<div>
+                     Metropolitan Library System - Harrah Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5f1948b2f959cebf3153c4dc9df50bc = L.marker(
+                [35.5655032, -97.3025924],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_723854c5dd0f54f1841c52bfa5675f4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76580f5d7455cf105c4c6fc90f700d2c = $(`<div id="html_76580f5d7455cf105c4c6fc90f700d2c" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibraryjones?share>Metropolitan Library System - Jones Library </a><p>MON, WED & THUR 9am – 6pm;</p></div></div>`)[0];
+            popup_723854c5dd0f54f1841c52bfa5675f4e.setContent(html_76580f5d7455cf105c4c6fc90f700d2c);
+        
+
+        marker_b5f1948b2f959cebf3153c4dc9df50bc.bindPopup(popup_723854c5dd0f54f1841c52bfa5675f4e)
+        ;
+
+        
+    
+    
+            marker_b5f1948b2f959cebf3153c4dc9df50bc.bindTooltip(
+                `<div>
+                     Metropolitan Library System - Jones Library
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33d0545357d0c3863e22abdab9b8843d = L.marker(
+                [35.6640572, -97.19311],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_143e59b741abb60444505c6479da73b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e891e10875908c74d9529bf2f2cea9ff = $(`<div id="html_e891e10875908c74d9529bf2f2cea9ff" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibraryluther?share>Metropolitan Library System - Elizabeth Threatt Luther Library</a><p>MON, WED & THUR – 9am – 6 pm;</p></div></div>`)[0];
+            popup_143e59b741abb60444505c6479da73b5.setContent(html_e891e10875908c74d9529bf2f2cea9ff);
+        
+
+        marker_33d0545357d0c3863e22abdab9b8843d.bindPopup(popup_143e59b741abb60444505c6479da73b5)
+        ;
+
+        
+    
+    
+            marker_33d0545357d0c3863e22abdab9b8843d.bindTooltip(
+                `<div>
+                     Metropolitan Library System - Elizabeth Threatt Luther Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c77738ee273d25859dc6bf92f5c65bb = L.marker(
+                [34.092478, -96.7750766],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_2828f0d0a38e4ce2f81d0162df8eafef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65645c6df110b71b2b0cafd22571f87a = $(`<div id="html_65645c6df110b71b2b0cafd22571f87a" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/ZfSVZGHDJv5qVqo18>Madill City Library</a><p>MON, TUE, THUR & fri 9:30am – 6:30pm, Wed 9:30 – 7pm</p></div></div>`)[0];
+            popup_2828f0d0a38e4ce2f81d0162df8eafef.setContent(html_65645c6df110b71b2b0cafd22571f87a);
+        
+
+        marker_5c77738ee273d25859dc6bf92f5c65bb.bindPopup(popup_2828f0d0a38e4ce2f81d0162df8eafef)
+        ;
+
+        
+    
+    
+            marker_5c77738ee273d25859dc6bf92f5c65bb.bindTooltip(
+                `<div>
+                     Madill City Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d701acef02a4b2856bdeb84259d9b70 = L.marker(
+                [35.4650993, -97.4182794],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_65700b8c6dfa20e9cbcc2903c066013b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_631749bb46ec922cdd9019a8eb1fbb3b = $(`<div id="html_631749bb46ec922cdd9019a8eb1fbb3b" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/k7DCJvLgHFQxdV3M6>Midwest City YMCA </a><p>MON-THUR 5am – 9pm; FRI 5am – 8:30pm; SAT 8am – 2pm; SUN 2-5pm;</p></div></div>`)[0];
+            popup_65700b8c6dfa20e9cbcc2903c066013b.setContent(html_631749bb46ec922cdd9019a8eb1fbb3b);
+        
+
+        marker_7d701acef02a4b2856bdeb84259d9b70.bindPopup(popup_65700b8c6dfa20e9cbcc2903c066013b)
+        ;
+
+        
+    
+    
+            marker_7d701acef02a4b2856bdeb84259d9b70.bindTooltip(
+                `<div>
+                     Midwest City YMCA 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4f37de5fb4c5d02b9acb0e8276a927e = L.marker(
+                [35.4659917, -97.3838615],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_86d723ca997194b170a75c50eb08502f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10361833aa08dd6d556dd6f4f8165908 = $(`<div id="html_10361833aa08dd6d556dd6f4f8165908" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/AAm9RMZbwG48nQPx6>Sr Citizens Center</a><p>M-F 8am-5pm;</p></div></div>`)[0];
+            popup_86d723ca997194b170a75c50eb08502f.setContent(html_10361833aa08dd6d556dd6f4f8165908);
+        
+
+        marker_c4f37de5fb4c5d02b9acb0e8276a927e.bindPopup(popup_86d723ca997194b170a75c50eb08502f)
+        ;
+
+        
+    
+    
+            marker_c4f37de5fb4c5d02b9acb0e8276a927e.bindTooltip(
+                `<div>
+                     Sr Citizens Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38c0beebea0f717d50bda60ea5c4de9c = L.marker(
+                [35.3395928, -97.4798581],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_5c38841903350ee753a18352de651737 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b9dcec50cc675827868c14bfc11628a = $(`<div id="html_0b9dcec50cc675827868c14bfc11628a" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/joz3HWLqq2gEqr3YA>Moore Sr Citizens Center</a><p>M-F 8am – 4pm;</p></div></div>`)[0];
+            popup_5c38841903350ee753a18352de651737.setContent(html_0b9dcec50cc675827868c14bfc11628a);
+        
+
+        marker_38c0beebea0f717d50bda60ea5c4de9c.bindPopup(popup_5c38841903350ee753a18352de651737)
+        ;
+
+        
+    
+    
+            marker_38c0beebea0f717d50bda60ea5c4de9c.bindTooltip(
+                `<div>
+                     Moore Sr Citizens Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9b0fd948dce2dd897ce3629186b3624 = L.marker(
+                [35.7478353, -95.3637429],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_e2095f07c2ba9cb25ecbae1f4e37c439 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5dbe02317d3ad98fb18f8922e0acc5e = $(`<div id="html_e5dbe02317d3ad98fb18f8922e0acc5e" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/CzpEB8Pppnirxgu47>Muskogee Gospel Rescue Mission</a><p>nan</p></div></div>`)[0];
+            popup_e2095f07c2ba9cb25ecbae1f4e37c439.setContent(html_e5dbe02317d3ad98fb18f8922e0acc5e);
+        
+
+        marker_a9b0fd948dce2dd897ce3629186b3624.bindPopup(popup_e2095f07c2ba9cb25ecbae1f4e37c439)
+        ;
+
+        
+    
+    
+            marker_a9b0fd948dce2dd897ce3629186b3624.bindTooltip(
+                `<div>
+                     Muskogee Gospel Rescue Mission
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba72926a3cae8bdfe110eea7377c0aba = L.marker(
+                [35.4919618, -97.3248489],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_0d14d66db73d6fc0ab3480adeb740a79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f744e746af34865620f9d00f7aa47c01 = $(`<div id="html_f744e746af34865620f9d00f7aa47c01" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibrarynicomapark?share>Metropolitan Library System - Nicoma Park Library </a><p>MON, WED & THUR 9am – 6pm; TUE 9am – 8pm; FRI-SAT 9am – 5pm</p></div></div>`)[0];
+            popup_0d14d66db73d6fc0ab3480adeb740a79.setContent(html_f744e746af34865620f9d00f7aa47c01);
+        
+
+        marker_ba72926a3cae8bdfe110eea7377c0aba.bindPopup(popup_0d14d66db73d6fc0ab3480adeb740a79)
+        ;
+
+        
+    
+    
+            marker_ba72926a3cae8bdfe110eea7377c0aba.bindTooltip(
+                `<div>
+                     Metropolitan Library System - Nicoma Park Library
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d930e765fad4987d3ca1ee1d94bdbb29 = L.marker(
+                [35.2238654, -97.4332258],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_07e6e37a13967a9b1237da25f64c4813 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e116efc44a1c4462d7fa95f5b780607 = $(`<div id="html_1e116efc44a1c4462d7fa95f5b780607" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/yV1tXFjvacYnfocdA>Norman Food And Shelter</a><p>M-F 8am 4 pm; SAT-SUN 8am – 1pm</p></div></div>`)[0];
+            popup_07e6e37a13967a9b1237da25f64c4813.setContent(html_1e116efc44a1c4462d7fa95f5b780607);
+        
+
+        marker_d930e765fad4987d3ca1ee1d94bdbb29.bindPopup(popup_07e6e37a13967a9b1237da25f64c4813)
+        ;
+
+        
+    
+    
+            marker_d930e765fad4987d3ca1ee1d94bdbb29.bindTooltip(
+                `<div>
+                     Norman Food And Shelter
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2e5b5de81886e2b116f6ec2ac50af7f = L.marker(
+                [35.2321676, -97.458253],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_a088a5eb7371466f5c010d92b56ffe86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb439a4bbb57fbdd55ad4fc6d5a4da6c = $(`<div id="html_bb439a4bbb57fbdd55ad4fc6d5a4da6c" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/oNHYm3QY3dksnr5s9>Norman Salvation Army </a><p>nan</p></div></div>`)[0];
+            popup_a088a5eb7371466f5c010d92b56ffe86.setContent(html_bb439a4bbb57fbdd55ad4fc6d5a4da6c);
+        
+
+        marker_c2e5b5de81886e2b116f6ec2ac50af7f.bindPopup(popup_a088a5eb7371466f5c010d92b56ffe86)
+        ;
+
+        
+    
+    
+            marker_c2e5b5de81886e2b116f6ec2ac50af7f.bindTooltip(
+                `<div>
+                     Norman Salvation Army 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef5aebdd2863e8e94fdf17a0e9f2163d = L.marker(
+                [35.225178, -97.4397459],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_9b54beb7d5a133578f5f7a3c16c91a84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69614cd1665e7643c078b1eec86cc951 = $(`<div id="html_69614cd1665e7643c078b1eec86cc951" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/CbiYtr1o1ZRMMNdq5>Catholic Charities (Norman Sanctuary)</a><p>nan</p></div></div>`)[0];
+            popup_9b54beb7d5a133578f5f7a3c16c91a84.setContent(html_69614cd1665e7643c078b1eec86cc951);
+        
+
+        marker_ef5aebdd2863e8e94fdf17a0e9f2163d.bindPopup(popup_9b54beb7d5a133578f5f7a3c16c91a84)
+        ;
+
+        
+    
+    
+            marker_ef5aebdd2863e8e94fdf17a0e9f2163d.bindTooltip(
+                `<div>
+                     Catholic Charities (Norman Sanctuary)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfa628e57d062fc554129640c16a8835 = L.marker(
+                [35.4684557, -97.5186748],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_d05e469e1db1932a431c56caaa10471f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6da388f30dbf960bfe4a50e2c061fb09 = $(`<div id="html_6da388f30dbf960bfe4a50e2c061fb09" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/bHChHTVpLFy1sh49A>Oklahoma City Ronald J. Norick Downtown Library</a><p>M-TH 9am – 9pm; FRI 9am – 6pm; SAT 9am – 5pm; SUN 1pm – 6pm</p></div></div>`)[0];
+            popup_d05e469e1db1932a431c56caaa10471f.setContent(html_6da388f30dbf960bfe4a50e2c061fb09);
+        
+
+        marker_cfa628e57d062fc554129640c16a8835.bindPopup(popup_d05e469e1db1932a431c56caaa10471f)
+        ;
+
+        
+    
+    
+            marker_cfa628e57d062fc554129640c16a8835.bindTooltip(
+                `<div>
+                     Oklahoma City Ronald J. Norick Downtown Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_40b757eb2da5dbd2dcd50af637e9e224 = L.marker(
+                [35.4724191, -97.5128385],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_b0ab031eca8fb1b6d6650439d18eb6f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f07fcdd7e4bddfa424dfd8c89da8e9f = $(`<div id="html_1f07fcdd7e4bddfa424dfd8c89da8e9f" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/qFvojcfTuqsuJUBw6>Oklahoma City Downtown Branch YMCA</a><p>M-F 5am – 9pm; SAT 7am – 5pm; SUN 1pm – 5pm</p></div></div>`)[0];
+            popup_b0ab031eca8fb1b6d6650439d18eb6f3.setContent(html_1f07fcdd7e4bddfa424dfd8c89da8e9f);
+        
+
+        marker_40b757eb2da5dbd2dcd50af637e9e224.bindPopup(popup_b0ab031eca8fb1b6d6650439d18eb6f3)
+        ;
+
+        
+    
+    
+            marker_40b757eb2da5dbd2dcd50af637e9e224.bindTooltip(
+                `<div>
+                     Oklahoma City Downtown Branch YMCA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe11c855bf6b1e3dde754ec91ee05891 = L.marker(
+                [35.5266361, -97.5734644],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_5b782c94c2c5e379817713e7a1b05685 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a92df9693f0275f8f2f381cff35be5a8 = $(`<div id="html_a92df9693f0275f8f2f381cff35be5a8" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/N6bUHN6qSHLud68N8>YMCA Health Living Center</a><p>M-F 5:30am – 9pm; SAT 7am – 5:30pm; SUN 1pm – 5:30pm</p></div></div>`)[0];
+            popup_5b782c94c2c5e379817713e7a1b05685.setContent(html_a92df9693f0275f8f2f381cff35be5a8);
+        
+
+        marker_fe11c855bf6b1e3dde754ec91ee05891.bindPopup(popup_5b782c94c2c5e379817713e7a1b05685)
+        ;
+
+        
+    
+    
+            marker_fe11c855bf6b1e3dde754ec91ee05891.bindTooltip(
+                `<div>
+                     YMCA Health Living Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_646ea94fe1f1fa6fa3c83075c9358d25 = L.marker(
+                [35.4530887, -97.5517482],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_39150a912ade45a9c1083a901c03c77b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d006d2aeca29a7e88b2f1de1d5f919c = $(`<div id="html_2d006d2aeca29a7e88b2f1de1d5f919c" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibrarywright?share>Oklahoma City Wright Library</a><p>Tu-Th 9:30am-5:30pm, F-Sa 9am-5pm</p></div></div>`)[0];
+            popup_39150a912ade45a9c1083a901c03c77b.setContent(html_2d006d2aeca29a7e88b2f1de1d5f919c);
+        
+
+        marker_646ea94fe1f1fa6fa3c83075c9358d25.bindPopup(popup_39150a912ade45a9c1083a901c03c77b)
+        ;
+
+        
+    
+    
+            marker_646ea94fe1f1fa6fa3c83075c9358d25.bindTooltip(
+                `<div>
+                     Oklahoma City Wright Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73a005ed3e97412cb7994c84cf5e128d = L.marker(
+                [35.501106, -97.4945867],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_38d172152d920778a977462fd7c12e23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfd5554a313816e90dabf650c3e16b82 = $(`<div id="html_cfd5554a313816e90dabf650c3e16b82" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/AJEaXyco4YyhG8WA8>Oklahoma City Faith Memorial Baptist Church</a><p>M-F 10am – 4pm; SUN 8am – 12:30pm</p></div></div>`)[0];
+            popup_38d172152d920778a977462fd7c12e23.setContent(html_cfd5554a313816e90dabf650c3e16b82);
+        
+
+        marker_73a005ed3e97412cb7994c84cf5e128d.bindPopup(popup_38d172152d920778a977462fd7c12e23)
+        ;
+
+        
+    
+    
+            marker_73a005ed3e97412cb7994c84cf5e128d.bindTooltip(
+                `<div>
+                     Oklahoma City Faith Memorial Baptist Church
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b00291d287fdbb58830f13ae857a2f10 = L.marker(
+                [35.4926779, -97.4760892],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_5fbaaa3b946b2254e90461a3a7252d7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c39649bfe7adf584ba63f6810b658b01 = $(`<div id="html_c39649bfe7adf584ba63f6810b658b01" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibraryralphellison?share>Oklahoma City Ralph Ellison Library</a><p>M-TH 9am – 9pm; FRI 9am – 6pm; SAT 9am – 5pm; SUN 12pm – 6pm</p></div></div>`)[0];
+            popup_5fbaaa3b946b2254e90461a3a7252d7a.setContent(html_c39649bfe7adf584ba63f6810b658b01);
+        
+
+        marker_b00291d287fdbb58830f13ae857a2f10.bindPopup(popup_5fbaaa3b946b2254e90461a3a7252d7a)
+        ;
+
+        
+    
+    
+            marker_b00291d287fdbb58830f13ae857a2f10.bindTooltip(
+                `<div>
+                     Oklahoma City Ralph Ellison Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5fc62380f60420866815e4724828604 = L.marker(
+                [35.5744819, -97.5502816],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_9a409f66166714cb8a8dc491c3510c03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73f08d0341df29499a7aec6f5438b724 = $(`<div id="html_73f08d0341df29499a7aec6f5438b724" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/9yx42cwNiSSgstue8>Crossings Community Center and Clinic</a><p>M-F 9am – 5pm</p></div></div>`)[0];
+            popup_9a409f66166714cb8a8dc491c3510c03.setContent(html_73f08d0341df29499a7aec6f5438b724);
+        
+
+        marker_d5fc62380f60420866815e4724828604.bindPopup(popup_9a409f66166714cb8a8dc491c3510c03)
+        ;
+
+        
+    
+    
+            marker_d5fc62380f60420866815e4724828604.bindTooltip(
+                `<div>
+                     Crossings Community Center and Clinic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3e9d9182ca1cc816e9b93f6d71bb0e2 = L.marker(
+                [35.525573, -97.5569692],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_5446797c74d491f29125cf8a0ceb7475 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ddab2af68c7fa6327aada3fa86d4790 = $(`<div id="html_7ddab2af68c7fa6327aada3fa86d4790" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/3wtp8SoGML1fyvi18>Belle Isle Library</a><p>M-TH 9am – 9pm; FRI 9am-6pm; SAT 9am – 5pm; SUN 1pm – 6pm</p></div></div>`)[0];
+            popup_5446797c74d491f29125cf8a0ceb7475.setContent(html_7ddab2af68c7fa6327aada3fa86d4790);
+        
+
+        marker_b3e9d9182ca1cc816e9b93f6d71bb0e2.bindPopup(popup_5446797c74d491f29125cf8a0ceb7475)
+        ;
+
+        
+    
+    
+            marker_b3e9d9182ca1cc816e9b93f6d71bb0e2.bindTooltip(
+                `<div>
+                     Belle Isle Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bc2cb829e8b70b7667c26271f9b3ada = L.marker(
+                [35.594165, -97.617908],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_9b98ebfc708d3964ff87a6382144d050 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_621d4c8749c8092293059605d283fbdb = $(`<div id="html_621d4c8749c8092293059605d283fbdb" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibrarynorthwest?share>Nothwest OKC Library</a><p>M-TH 9am – 9pm; FRI 9am-6pm; SAT 9am – 5pm; SUN 1pm – 6pm</p></div></div>`)[0];
+            popup_9b98ebfc708d3964ff87a6382144d050.setContent(html_621d4c8749c8092293059605d283fbdb);
+        
+
+        marker_8bc2cb829e8b70b7667c26271f9b3ada.bindPopup(popup_9b98ebfc708d3964ff87a6382144d050)
+        ;
+
+        
+    
+    
+            marker_8bc2cb829e8b70b7667c26271f9b3ada.bindTooltip(
+                `<div>
+                     Nothwest OKC Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e2c94e399df19d5f5b555d043b8ac7b = L.marker(
+                [35.5724855, -97.548106],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_49c2b76c893ad66951e6fa8388e0ee14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f214513f375c9a0f2734994afc352ded = $(`<div id="html_f214513f375c9a0f2734994afc352ded" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/xSmiSNghQuw5ksDm8>Oklahoma City North Side Branch YMCA</a><p>nan</p></div></div>`)[0];
+            popup_49c2b76c893ad66951e6fa8388e0ee14.setContent(html_f214513f375c9a0f2734994afc352ded);
+        
+
+        marker_2e2c94e399df19d5f5b555d043b8ac7b.bindPopup(popup_49c2b76c893ad66951e6fa8388e0ee14)
+        ;
+
+        
+    
+    
+            marker_2e2c94e399df19d5f5b555d043b8ac7b.bindTooltip(
+                `<div>
+                     Oklahoma City North Side Branch YMCA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed4cc0595e3dbd354c1d291954f4c117 = L.marker(
+                [35.4717309, -97.5447526],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_8078897ffaab67fe2935b4bbc5a83fec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8eb89d20cb85cd5df8ab29d61ab24317 = $(`<div id="html_8eb89d20cb85cd5df8ab29d61ab24317" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/3V2HHdGRrhC2xNxb6>Homeless Alliance</a><p>9am – 4pm</p></div></div>`)[0];
+            popup_8078897ffaab67fe2935b4bbc5a83fec.setContent(html_8eb89d20cb85cd5df8ab29d61ab24317);
+        
+
+        marker_ed4cc0595e3dbd354c1d291954f4c117.bindPopup(popup_8078897ffaab67fe2935b4bbc5a83fec)
+        ;
+
+        
+    
+    
+            marker_ed4cc0595e3dbd354c1d291954f4c117.bindTooltip(
+                `<div>
+                     Homeless Alliance
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f06893a2101716867b25b9824bc84e6 = L.marker(
+                [35.4204099, -97.462405],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_39e1c53eb2552dd23798be9e4d941cf2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b38a1878562e206727a8abbb44accdcc = $(`<div id="html_b38a1878562e206727a8abbb44accdcc" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/1RM1Vs87eXoeGaSK7>Oklahoma City Salvation Army</a><p>6:30PM</p></div></div>`)[0];
+            popup_39e1c53eb2552dd23798be9e4d941cf2.setContent(html_b38a1878562e206727a8abbb44accdcc);
+        
+
+        marker_1f06893a2101716867b25b9824bc84e6.bindPopup(popup_39e1c53eb2552dd23798be9e4d941cf2)
+        ;
+
+        
+    
+    
+            marker_1f06893a2101716867b25b9824bc84e6.bindTooltip(
+                `<div>
+                     Oklahoma City Salvation Army
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91590ca0781d89a3ed4bd7b39bee804c = L.marker(
+                [35.438228, -97.519678],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_0b85f0cd8febe695e03ced8f197c6d71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c04e1f49bc13ec2f5f38a630ae4c8dd0 = $(`<div id="html_c04e1f49bc13ec2f5f38a630ae4c8dd0" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibrarycapitolhill?share>Oklahoma City Capitol Hill Library</a><p>M-TH 9am – 9pm; FRI 9am – 6pm; SAT 9am – 5pm; SUN 1pm – 6pm</p></div></div>`)[0];
+            popup_0b85f0cd8febe695e03ced8f197c6d71.setContent(html_c04e1f49bc13ec2f5f38a630ae4c8dd0);
+        
+
+        marker_91590ca0781d89a3ed4bd7b39bee804c.bindPopup(popup_0b85f0cd8febe695e03ced8f197c6d71)
+        ;
+
+        
+    
+    
+            marker_91590ca0781d89a3ed4bd7b39bee804c.bindTooltip(
+                `<div>
+                     Oklahoma City Capitol Hill Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2abc0adee93f218f203c6a8cdf0ea81 = L.marker(
+                [35.5372622, -97.6216069],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_e5206099d97f8c363c3e7c1b3a321618 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_417430d0d9ccfa1c7b36b4c42bd942a1 = $(`<div id="html_417430d0d9ccfa1c7b36b4c42bd942a1" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibrarywarracres?share>Oklahoma City Warr Acres Library</a><p>M -TH 9am – 9pm; FRI 9am – 6pm; SAT 9am – 5pm; SUN 1pm – 6pm</p></div></div>`)[0];
+            popup_e5206099d97f8c363c3e7c1b3a321618.setContent(html_417430d0d9ccfa1c7b36b4c42bd942a1);
+        
+
+        marker_d2abc0adee93f218f203c6a8cdf0ea81.bindPopup(popup_e5206099d97f8c363c3e7c1b3a321618)
+        ;
+
+        
+    
+    
+            marker_d2abc0adee93f218f203c6a8cdf0ea81.bindTooltip(
+                `<div>
+                     Oklahoma City Warr Acres Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c77150565b8699ca16cc15d8f782b052 = L.marker(
+                [35.5546582, -97.6422942],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_3f959e9bb785b2898adba54c2ba109f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c565822c568b96f21aa1025361852c5 = $(`<div id="html_1c565822c568b96f21aa1025361852c5" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/cW2gNWSAHAnXwi71A>Rockwell Plaza YMCA</a><p>M-TH 5am – 9pm; FRI 5am – 8pm; SAT 7am – 5pm; SUN 1pm – 5pm</p></div></div>`)[0];
+            popup_3f959e9bb785b2898adba54c2ba109f7.setContent(html_1c565822c568b96f21aa1025361852c5);
+        
+
+        marker_c77150565b8699ca16cc15d8f782b052.bindPopup(popup_3f959e9bb785b2898adba54c2ba109f7)
+        ;
+
+        
+    
+    
+            marker_c77150565b8699ca16cc15d8f782b052.bindTooltip(
+                `<div>
+                     Rockwell Plaza YMCA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6724b9b0d4e18291d0ef5597de4d8983 = L.marker(
+                [35.397253, -97.520442],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_697a3ef47dce9b1c1d18478a23c5d7a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cae0f0b3b2bd4947a9c86dca1bf38755 = $(`<div id="html_cae0f0b3b2bd4947a9c86dca1bf38755" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibrarysouthernoaks?share>Southern Oaks Library</a><p>M-TH 9am – 9pm; FRI 9am – 6pm; SAT 9am – 5pm; SUN 12pm – 6pm</p></div></div>`)[0];
+            popup_697a3ef47dce9b1c1d18478a23c5d7a4.setContent(html_cae0f0b3b2bd4947a9c86dca1bf38755);
+        
+
+        marker_6724b9b0d4e18291d0ef5597de4d8983.bindPopup(popup_697a3ef47dce9b1c1d18478a23c5d7a4)
+        ;
+
+        
+    
+    
+            marker_6724b9b0d4e18291d0ef5597de4d8983.bindTooltip(
+                `<div>
+                     Southern Oaks Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f5c3198bb1e1e59001269d95017ff52 = L.marker(
+                [35.3804156, -97.5468727],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_2b9fd775d7c8d9a35c9753c1c511c1a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51bb1eb68b673b65ca82c592905581d6 = $(`<div id="html_51bb1eb68b673b65ca82c592905581d6" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/J8i2BYJzsawEJTxo8>South Center</a><p>M-F 7am – 5:30pm</p></div></div>`)[0];
+            popup_2b9fd775d7c8d9a35c9753c1c511c1a2.setContent(html_51bb1eb68b673b65ca82c592905581d6);
+        
+
+        marker_4f5c3198bb1e1e59001269d95017ff52.bindPopup(popup_2b9fd775d7c8d9a35c9753c1c511c1a2)
+        ;
+
+        
+    
+    
+            marker_4f5c3198bb1e1e59001269d95017ff52.bindTooltip(
+                `<div>
+                     South Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_428b1978161f60f2cd4d501a84918508 = L.marker(
+                [35.592487, -97.637195],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_6473f3a66c57911935e863b49f92c45e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38a6f358d6239f9e39596e632fb47bec = $(`<div id="html_38a6f358d6239f9e39596e632fb47bec" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/sESVaxtuv4Nd4E2e8>Rockwell Crossing YMCA</a><p>M-TH 6am – 9pm; FRI 6am – 8pm; SAT 7am – 4pm; SUN 1pm – 5pm</p></div></div>`)[0];
+            popup_6473f3a66c57911935e863b49f92c45e.setContent(html_38a6f358d6239f9e39596e632fb47bec);
+        
+
+        marker_428b1978161f60f2cd4d501a84918508.bindPopup(popup_6473f3a66c57911935e863b49f92c45e)
+        ;
+
+        
+    
+    
+            marker_428b1978161f60f2cd4d501a84918508.bindTooltip(
+                `<div>
+                     Rockwell Crossing YMCA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5990900b1e2443de77b8f5620e3b7686 = L.marker(
+                [35.349746, -97.566403],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_6401168606e6387c61afeef199618651 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da633afce2c8a0d48e952ab6a44c84ee = $(`<div id="html_da633afce2c8a0d48e952ab6a44c84ee" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/bi8UuLSmMJcz3tuj7>Earlywine Park YMCA </a><p>M-TH 5am – 10pm; FRI 5am – 7pm; SAT 7am – 4pm; SUN 1pm – 5pm</p></div></div>`)[0];
+            popup_6401168606e6387c61afeef199618651.setContent(html_da633afce2c8a0d48e952ab6a44c84ee);
+        
+
+        marker_5990900b1e2443de77b8f5620e3b7686.bindPopup(popup_6401168606e6387c61afeef199618651)
+        ;
+
+        
+    
+    
+            marker_5990900b1e2443de77b8f5620e3b7686.bindTooltip(
+                `<div>
+                     Earlywine Park YMCA 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45c47d3605a86ec54177c4492d168db8 = L.marker(
+                [35.4041858, -97.566459],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_bccf030559b00ff7f0f61a13581659f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_496a8600367f1cb34e12e613a7fbedb4 = $(`<div id="html_496a8600367f1cb34e12e613a7fbedb4" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibraryalmonte?share>Almonte Library </a><p>M-TH 9am – 9pm; FRI 9am – 6pm; SAT 9am – 5pm; SUN 1pm – 6pm</p></div></div>`)[0];
+            popup_bccf030559b00ff7f0f61a13581659f7.setContent(html_496a8600367f1cb34e12e613a7fbedb4);
+        
+
+        marker_45c47d3605a86ec54177c4492d168db8.bindPopup(popup_bccf030559b00ff7f0f61a13581659f7)
+        ;
+
+        
+    
+    
+            marker_45c47d3605a86ec54177c4492d168db8.bindTooltip(
+                `<div>
+                     Almonte Library 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbde4947e1540dbcdecfd1d6c9933c4b = L.marker(
+                [35.9993046, -96.1139136],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_8cdb512419b319064e51fdca8f4d7008 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05c0dd22018a39ca0dbaa99c3646006c = $(`<div id="html_05c0dd22018a39ca0dbaa99c3646006c" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/AYJrnmgFoAQKS5JW9>Sapulpa Community Resource Center</a><p>nan</p></div></div>`)[0];
+            popup_8cdb512419b319064e51fdca8f4d7008.setContent(html_05c0dd22018a39ca0dbaa99c3646006c);
+        
+
+        marker_bbde4947e1540dbcdecfd1d6c9933c4b.bindPopup(popup_8cdb512419b319064e51fdca8f4d7008)
+        ;
+
+        
+    
+    
+            marker_bbde4947e1540dbcdecfd1d6c9933c4b.bindTooltip(
+                `<div>
+                     Sapulpa Community Resource Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0830b2aa0a243ac0710b53196ad9084e = L.marker(
+                [35.9988354, -96.117421],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_57c4aab1b80348a823adfdacc90b2b58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccaa314ce916f577f473ba0b6b4e6f35 = $(`<div id="html_ccaa314ce916f577f473ba0b6b4e6f35" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/ks7XM1v4t8AuTDZt5>Sapulpa Public Library</a><p>M-Th 9am-7pm; F 9am-5pm; Sat. 10am-2pm</p></div></div>`)[0];
+            popup_57c4aab1b80348a823adfdacc90b2b58.setContent(html_ccaa314ce916f577f473ba0b6b4e6f35);
+        
+
+        marker_0830b2aa0a243ac0710b53196ad9084e.bindPopup(popup_57c4aab1b80348a823adfdacc90b2b58)
+        ;
+
+        
+    
+    
+            marker_0830b2aa0a243ac0710b53196ad9084e.bindTooltip(
+                `<div>
+                     Sapulpa Public Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49aa41450b99c7b31a7978655f4adfa4 = L.marker(
+                [35.977832, -96.1172341],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_68647a1ea19f698fe027f9b86688c83b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1eed8aebe21fc4d5424e54fd94a39838 = $(`<div id="html_1eed8aebe21fc4d5424e54fd94a39838" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/eBjp1Zka5Kk9XKVs6>The Salvation Army</a><p>M-F 6am-Noon & 1pm-6pm</p></div></div>`)[0];
+            popup_68647a1ea19f698fe027f9b86688c83b.setContent(html_1eed8aebe21fc4d5424e54fd94a39838);
+        
+
+        marker_49aa41450b99c7b31a7978655f4adfa4.bindPopup(popup_68647a1ea19f698fe027f9b86688c83b)
+        ;
+
+        
+    
+    
+            marker_49aa41450b99c7b31a7978655f4adfa4.bindTooltip(
+                `<div>
+                     The Salvation Army
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2038e3b43a7274f29423a54f74e85d0 = L.marker(
+                [35.9976638, -96.1158771],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_b2a8ce515c481d8a612b80baaedfea68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76a57ba7bc7a7ac5202bdd494196a7d1 = $(`<div id="html_76a57ba7bc7a7ac5202bdd494196a7d1" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/8hxUeXfmJgJ31i9s5>Sapulpa Elks Lodge</a><p>nan</p></div></div>`)[0];
+            popup_b2a8ce515c481d8a612b80baaedfea68.setContent(html_76a57ba7bc7a7ac5202bdd494196a7d1);
+        
+
+        marker_a2038e3b43a7274f29423a54f74e85d0.bindPopup(popup_b2a8ce515c481d8a612b80baaedfea68)
+        ;
+
+        
+    
+    
+            marker_a2038e3b43a7274f29423a54f74e85d0.bindTooltip(
+                `<div>
+                     Sapulpa Elks Lodge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b73a53c55a7f2bb535dd7e0966b52cd = L.marker(
+                [35.2313295, -96.6590077],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_ce587d20a4c883df3b74ef067cf1d930 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61f3ab9f1e569dd566fdfe644f395614 = $(`<div id="html_61f3ab9f1e569dd566fdfe644f395614" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/JLrbBG41QezoSup9A>Reynolds Wellness Center</a><p>Closes 9pm</p></div></div>`)[0];
+            popup_ce587d20a4c883df3b74ef067cf1d930.setContent(html_61f3ab9f1e569dd566fdfe644f395614);
+        
+
+        marker_2b73a53c55a7f2bb535dd7e0966b52cd.bindPopup(popup_ce587d20a4c883df3b74ef067cf1d930)
+        ;
+
+        
+    
+    
+            marker_2b73a53c55a7f2bb535dd7e0966b52cd.bindTooltip(
+                `<div>
+                     Reynolds Wellness Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa0e91c29b3014e01b9231235bb6e7df = L.marker(
+                [35.2266997, -96.6775428],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_ed998f0505aa78120e56803fe4ca5041 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76cf20c2436cc31f7f084ab354f5300a = $(`<div id="html_76cf20c2436cc31f7f084ab354f5300a" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/qQw48FKcY58dVqeA8>Seminole City Hall</a><p>Closes 5pm</p></div></div>`)[0];
+            popup_ed998f0505aa78120e56803fe4ca5041.setContent(html_76cf20c2436cc31f7f084ab354f5300a);
+        
+
+        marker_fa0e91c29b3014e01b9231235bb6e7df.bindPopup(popup_ed998f0505aa78120e56803fe4ca5041)
+        ;
+
+        
+    
+    
+            marker_fa0e91c29b3014e01b9231235bb6e7df.bindTooltip(
+                `<div>
+                     Seminole City Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_175bdd606d4b16b43cac9ef168ed1f76 = L.marker(
+                [35.2316314, -96.652702],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_9b62e33eff23ab9230bd65813e3a4cab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02d4dfe6596543f6366533004f39376b = $(`<div id="html_02d4dfe6596543f6366533004f39376b" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/q6vETH4NTcemcuvT8>Seminole Seminole Fire Station</a><p>1d</p></div></div>`)[0];
+            popup_9b62e33eff23ab9230bd65813e3a4cab.setContent(html_02d4dfe6596543f6366533004f39376b);
+        
+
+        marker_175bdd606d4b16b43cac9ef168ed1f76.bindPopup(popup_9b62e33eff23ab9230bd65813e3a4cab)
+        ;
+
+        
+    
+    
+            marker_175bdd606d4b16b43cac9ef168ed1f76.bindTooltip(
+                `<div>
+                     Seminole Seminole Fire Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8094fe4af64ec6d8d80d3171b91c5f4 = L.marker(
+                [35.3311708, -96.9030543],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_b09250f069abc95d27194ba18e1b48bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6060fe086d0bcbd83dc05d5e3c78c4d2 = $(`<div id="html_6060fe086d0bcbd83dc05d5e3c78c4d2" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/zFnPLg767esJtLmJ7>C3 Church Gym</a><p>TUE-FRI 8am – 6pm (Pets welcome)</p></div></div>`)[0];
+            popup_b09250f069abc95d27194ba18e1b48bd.setContent(html_6060fe086d0bcbd83dc05d5e3c78c4d2);
+        
+
+        marker_f8094fe4af64ec6d8d80d3171b91c5f4.bindPopup(popup_b09250f069abc95d27194ba18e1b48bd)
+        ;
+
+        
+    
+    
+            marker_f8094fe4af64ec6d8d80d3171b91c5f4.bindTooltip(
+                `<div>
+                     C3 Church Gym
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_440d04ce6e183bcf7e48af324ef202c0 = L.marker(
+                [34.5067529, -96.9740585],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_ba49d0132caf6ec5574ec8504f2e55a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2a8461e8acc8400a3e08f504b3b7599 = $(`<div id="html_d2a8461e8acc8400a3e08f504b3b7599" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/Parker-Memorial-Library-Sulphur?share>Mary Parker Memorial Library</a><p>11:30am – 5pm</p></div></div>`)[0];
+            popup_ba49d0132caf6ec5574ec8504f2e55a2.setContent(html_d2a8461e8acc8400a3e08f504b3b7599);
+        
+
+        marker_440d04ce6e183bcf7e48af324ef202c0.bindPopup(popup_ba49d0132caf6ec5574ec8504f2e55a2)
+        ;
+
+        
+    
+    
+            marker_440d04ce6e183bcf7e48af324ef202c0.bindTooltip(
+                `<div>
+                     Mary Parker Memorial Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bfcb569d96d2d904f6ecba60ea23c4e = L.marker(
+                [35.5755065, -97.5498468],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_9b950747d01c2874d8dda30861445d14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb9235b3a4787837822b6b9ee6738e8e = $(`<div id="html_fb9235b3a4787837822b6b9ee6738e8e" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/metrolibrarythevillage?share>The Village Library</a><p>MON-THUR 9am – 9pm; FRI 9am – 6pm; SAT 9am – 5pm; SUN 1pm – 6pm</p></div></div>`)[0];
+            popup_9b950747d01c2874d8dda30861445d14.setContent(html_fb9235b3a4787837822b6b9ee6738e8e);
+        
+
+        marker_4bfcb569d96d2d904f6ecba60ea23c4e.bindPopup(popup_9b950747d01c2874d8dda30861445d14)
+        ;
+
+        
+    
+    
+            marker_4bfcb569d96d2d904f6ecba60ea23c4e.bindTooltip(
+                `<div>
+                     The Village Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c5466032b442fff2556ff7bac212ca1 = L.marker(
+                [34.2350142, -96.6827407],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_bf66d9878c2aa7d80ac0420b5f1d2b60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c921e74728b8e737a8cc2ed30acc3da = $(`<div id="html_2c921e74728b8e737a8cc2ed30acc3da" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/f3eKacRXTkhEfTEK6>Johnston County Library</a><p>nan</p></div></div>`)[0];
+            popup_bf66d9878c2aa7d80ac0420b5f1d2b60.setContent(html_2c921e74728b8e737a8cc2ed30acc3da);
+        
+
+        marker_1c5466032b442fff2556ff7bac212ca1.bindPopup(popup_bf66d9878c2aa7d80ac0420b5f1d2b60)
+        ;
+
+        
+    
+    
+            marker_1c5466032b442fff2556ff7bac212ca1.bindTooltip(
+                `<div>
+                     Johnston County Library
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af8acd06042760a8e2dd857802a108a8 = L.marker(
+                [36.1561097, -95.9999317],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_57692fe79992579f3ade574e4d8e2c50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b0612eae77d255a1ed5a873607cc051 = $(`<div id="html_6b0612eae77d255a1ed5a873607cc051" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/jCjuKByAcPBBck2j8>The Salvation Army Center of Hope</a><p>7 Days/Week, 24 Hours/Day, 365 Days/Year (Capacity Limits)</p></div></div>`)[0];
+            popup_57692fe79992579f3ade574e4d8e2c50.setContent(html_6b0612eae77d255a1ed5a873607cc051);
+        
+
+        marker_af8acd06042760a8e2dd857802a108a8.bindPopup(popup_57692fe79992579f3ade574e4d8e2c50)
+        ;
+
+        
+    
+    
+            marker_af8acd06042760a8e2dd857802a108a8.bindTooltip(
+                `<div>
+                     The Salvation Army Center of Hope
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f4f08efdfc59a9d4551739680f565b1 = L.marker(
+                [36.1602597, -95.9980098],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_f2375358bfcd965bbf3dd6229b6ca0f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3623ffead0c8f09ad33d7fdf91ed6bc6 = $(`<div id="html_3623ffead0c8f09ad33d7fdf91ed6bc6" style="width: 100.0%; height: 100.0%;"><div><a href=https://g.page/john316missiontulsa?share>John 3:16 Mission</a><p>7 Days/Week, 24 Hours/Day, 365 Days/Year</p></div></div>`)[0];
+            popup_f2375358bfcd965bbf3dd6229b6ca0f7.setContent(html_3623ffead0c8f09ad33d7fdf91ed6bc6);
+        
+
+        marker_3f4f08efdfc59a9d4551739680f565b1.bindPopup(popup_f2375358bfcd965bbf3dd6229b6ca0f7)
+        ;
+
+        
+    
+    
+            marker_3f4f08efdfc59a9d4551739680f565b1.bindTooltip(
+                `<div>
+                     John 3:16 Mission
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83499d2ee7a1f2f25d91ab6f6225d1b4 = L.marker(
+                [36.1523814, -96.0282011],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_40ff6e75d9da8d8b535273d9af9def47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_293008451f2a4cf7e639a44e10670702 = $(`<div id="html_293008451f2a4cf7e639a44e10670702" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/es1AkTfGF3F1ioY7A>Tulsa County Emergency Shelter</a><p>7 Days/Week, 24 Hours/Day, 365 Days/Year</p></div></div>`)[0];
+            popup_40ff6e75d9da8d8b535273d9af9def47.setContent(html_293008451f2a4cf7e639a44e10670702);
+        
+
+        marker_83499d2ee7a1f2f25d91ab6f6225d1b4.bindPopup(popup_40ff6e75d9da8d8b535273d9af9def47)
+        ;
+
+        
+    
+    
+            marker_83499d2ee7a1f2f25d91ab6f6225d1b4.bindTooltip(
+                `<div>
+                     Tulsa County Emergency Shelter
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa5c2ba96c1208b4c115566eebc3276d = L.marker(
+                [36.4197349, -99.3972763],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_b3e86105c91048869ab305f0df1aa98e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_323b72dd23470108e09fb61f3e265883 = $(`<div id="html_323b72dd23470108e09fb61f3e265883" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/Bt28xoVCUpXsBbBa9>Woodward Senior Center</a><p>MON-THUR 8:30am – 4:30pm; FRI 8:30am – 12pm</p></div></div>`)[0];
+            popup_b3e86105c91048869ab305f0df1aa98e.setContent(html_323b72dd23470108e09fb61f3e265883);
+        
+
+        marker_fa5c2ba96c1208b4c115566eebc3276d.bindPopup(popup_b3e86105c91048869ab305f0df1aa98e)
+        ;
+
+        
+    
+    
+            marker_fa5c2ba96c1208b4c115566eebc3276d.bindTooltip(
+                `<div>
+                     Woodward Senior Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9b1f0e3a1bfc0257113205ff1390cad = L.marker(
+                [35.4744319, -97.756455],
+                {}
+            ).addTo(map_ffd738d295717b28c23ac17f2852c33a);
+        
+    
+        var popup_0035d1748d442fe2dbccff57a982b9bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2ed103d68fbe4494140a50113bfc755 = $(`<div id="html_f2ed103d68fbe4494140a50113bfc755" style="width: 100.0%; height: 100.0%;"><div><a href=https://goo.gl/maps/Prmzx5g9ZHRZcG8M8>Trinity Baptist Church</a><p>8:30am – 4:30pm</p></div></div>`)[0];
+            popup_0035d1748d442fe2dbccff57a982b9bf.setContent(html_f2ed103d68fbe4494140a50113bfc755);
+        
+
+        marker_e9b1f0e3a1bfc0257113205ff1390cad.bindPopup(popup_0035d1748d442fe2dbccff57a982b9bf)
+        ;
+
+        
+    
+    
+            marker_e9b1f0e3a1bfc0257113205ff1390cad.bindTooltip(
+                `<div>
+                     Trinity Baptist Church
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

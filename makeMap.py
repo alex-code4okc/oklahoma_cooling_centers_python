@@ -11,4 +11,4 @@ for name, days, google_link, latlon in zip(cc_df['Name'], cc_df['Days'], cc_df['
     lonF = float(lon)
     folium.Marker([latF,lonF], popup=f'<div><a href={google_link}>{name}</a><p>{days}</p></div>', tooltip=name).add_to(m)
 
-m.save('index.html')
+m.save('docs/index.html')
